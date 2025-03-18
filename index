@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="styles_one.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Iniciar Sesión</h2>
+        <p>Ingresa tus credenciales para continuar</p>
+        <form id="formulario">
+            <label for="email">Correo Electrónico</label>
+            <div class="input-container">
+                <i class="bi bi-mailbox"></i>
+                <input type="email" id="email" placeholder="ejemplo@correo.com">
+            </div>
+            <label for="password">Contraseña</label>
+            <div class="input-container">
+                <i class="bi bi-shield"></i>
+                <input type="password" id="password" placeholder="********">
+            </div>
+            <label for="confirm-password">Confirmar Contraseña</label>
+            <div class="input-container">
+                <i class="bi bi-shield-fill-check"></i>
+                <input type="password" id="confirmPassword" placeholder="********">
+            </div>
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
